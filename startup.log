@@ -1,0 +1,108 @@
+=== CipherShield Diagnostic Startup Log ===
+[2026-10-27 20:43:06.056] [main] Main method entered. Java version: 1.8.0_504 (Temurin)
+[2026-10-27 20:43:06.056] [main] Operating System: Windows 11 10.0 (amd64)
+[2026-10-27 20:43:06.056] [main] Working directory: C:\Users\kidhiyonprabu\OneDrive\CipherShield\.
+[2026-10-27 20:43:06.071] [main] Setting UI antialiasing properties...
+[2026-10-27 20:43:06.071] [main] Setting System Look and Feel...
+[2026-10-27 20:43:06.542] [main] Look and Feel set to: Windows
+[2026-10-27 20:43:06.554] [main] Initializing HistoryService...
+[2026-10-27 20:43:06.639] [main] HistoryService initialized successfully.
+[2026-10-27 20:43:06.642] [main] Scheduling UI creation on EDT via SwingUtilities.invokeLater...
+[2026-10-27 20:43:06.658] [main] main() thread exiting normally (EDT running in background).
+[2026-10-27 20:43:06.684] [AWT-EventQueue-0] EDT run() started.
+[2026-10-27 20:43:06.691] [AWT-EventQueue-0] Creating MainFrame instance...
+[2026-10-27 20:43:06.910] [AWT-EventQueue-0] MainFrame constructor started.
+[2026-10-27 20:43:06.910] [AWT-EventQueue-0] Setting frame icon...
+[2026-10-27 20:43:07.008] [AWT-EventQueue-0] Creating sidebar...
+[2026-10-27 20:43:07.075] [AWT-EventQueue-0] Initializing pages...
+[2026-10-27 20:43:07.083] [AWT-EventQueue-0] Initializing DashboardPanel...
+[2026-10-27 20:43:07.306] [AWT-EventQueue-0] Initializing TextCryptoPanel...
+[2026-10-27 20:43:07.465] [AWT-EventQueue-0] Initializing FileCryptoPanel...
+[2026-10-27 20:43:07.584] [AWT-EventQueue-0] Initializing PrivacyGuardPanel...
+[2026-10-27 20:43:07.816] [AWT-EventQueue-0] Initializing BatchCenterPanel...
+[2026-10-27 20:43:07.891] [AWT-EventQueue-0] Initializing IntegrityLabPanel...
+[2026-10-27 20:43:07.943] [AWT-EventQueue-0] Initializing HistoryPanel...
+[2026-10-27 20:43:08.003] [AWT-EventQueue-0] Initializing AboutPanel...
+[2026-10-27 20:43:08.074] [AWT-EventQueue-0] Adding panels to CardLayout contentArea...
+[2026-10-27 20:43:08.074] [AWT-EventQueue-0] All pages initialized and added.
+[2026-10-27 20:43:08.074] [AWT-EventQueue-0] Navigating to initial page (DASHBOARD)...
+[2026-10-27 20:43:08.083] [AWT-EventQueue-0] MainFrame constructor finished.
+[2026-10-27 20:43:08.083] [AWT-EventQueue-0] MainFrame created in 1392 ms.
+[2026-10-27 20:43:08.086] [AWT-EventQueue-0] Calling frame.setVisible(true)...
+[2026-10-27 20:43:08.382] [AWT-EventQueue-0] Frame visibility check: isVisible=true, isDisplayable=true, isShowing=true, bounds=java.awt.Rectangle[x=240,y=90,width=1440,height=900], extendedState=0
+[2026-10-27 20:43:08.387] [AWT-EventQueue-0] MainFrame successfully displayed and focused.
+[2026-10-27 20:43:39.925] [DiagnosticShutdownHook] JVM ShutdownHook triggered! Listing active non-daemon threads:
+[2026-10-27 20:43:39.928] [DiagnosticShutdownHook] Thread [Thread-0] (isDaemon=true, state=RUNNABLE)
+[2026-10-27 20:43:39.932] [DiagnosticShutdownHook]     at sun.awt.windows.WToolkit.shutdown(Native Method)
+[2026-10-27 20:43:39.933] [DiagnosticShutdownHook]     at sun.awt.windows.WToolkit$$Lambda$6/2094416707.run(Unknown Source)
+[2026-10-27 20:43:39.942] [DiagnosticShutdownHook]     at java.lang.Thread.run(Thread.java:750)
+[2026-10-27 20:43:39.947] [DiagnosticShutdownHook] Thread [Reference Handler] (isDaemon=true, state=WAITING)
+[2026-10-27 20:43:39.950] [DiagnosticShutdownHook]     at java.lang.Object.wait(Native Method)
+[2026-10-27 20:43:39.975] [DiagnosticShutdownHook]     at java.lang.Object.wait(Object.java:502)
+[2026-10-27 20:43:39.981] [DiagnosticShutdownHook]     at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+[2026-10-27 20:43:39.984] [DiagnosticShutdownHook]     at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+[2026-10-27 20:43:39.986] [DiagnosticShutdownHook] Thread [AWT-Windows] (isDaemon=true, state=TERMINATED)
+[2026-10-27 20:43:39.988] [DiagnosticShutdownHook]     at sun.awt.windows.WToolkit.eventLoop(Native Method)
+[2026-10-27 20:43:39.994] [DiagnosticShutdownHook]     at sun.awt.windows.WToolkit.run(WToolkit.java:316)
+[2026-10-27 20:43:39.996] [DiagnosticShutdownHook]     at java.lang.Thread.run(Thread.java:750)
+[2026-10-27 20:43:39.998] [DiagnosticShutdownHook] Thread [Java2D Disposer] (isDaemon=true, state=WAITING)
+[2026-10-27 20:43:40.000] [DiagnosticShutdownHook]     at java.lang.Object.wait(Native Method)
+[2026-10-27 20:43:40.002] [DiagnosticShutdownHook]     at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+[2026-10-27 20:43:40.004] [DiagnosticShutdownHook]     at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+[2026-10-27 20:43:40.006] [DiagnosticShutdownHook]     at sun.java2d.Disposer.run(Disposer.java:148)
+[2026-10-27 20:43:40.008] [DiagnosticShutdownHook]     at java.lang.Thread.run(Thread.java:750)
+[2026-10-27 20:43:40.012] [DiagnosticShutdownHook] Thread [Attach Listener] (isDaemon=true, state=RUNNABLE)
+[2026-10-27 20:43:40.012] [DiagnosticShutdownHook] Thread [AWT-Shutdown] (isDaemon=false, state=WAITING)
+[2026-10-27 20:43:40.016] [DiagnosticShutdownHook]     at java.lang.Object.wait(Native Method)
+[2026-10-27 20:43:40.018] [DiagnosticShutdownHook]     at java.lang.Object.wait(Object.java:502)
+[2026-10-27 20:43:40.018] [DiagnosticShutdownHook]     at sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:295)
+[2026-10-27 20:43:40.020] [DiagnosticShutdownHook]     at java.lang.Thread.run(Thread.java:750)
+[2026-10-27 20:43:40.020] [DiagnosticShutdownHook] Thread [Finalizer] (isDaemon=true, state=WAITING)
+[2026-10-27 20:43:40.022] [DiagnosticShutdownHook]     at java.lang.Object.wait(Native Method)
+[2026-10-27 20:43:40.023] [DiagnosticShutdownHook]     at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+[2026-10-27 20:43:40.026] [DiagnosticShutdownHook]     at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+[2026-10-27 20:43:40.028] [DiagnosticShutdownHook]     at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:188)
+[2026-10-27 20:43:40.029] [DiagnosticShutdownHook] Thread [DestroyJavaVM] (isDaemon=false, state=RUNNABLE)
+[2026-10-27 20:43:40.031] [DiagnosticShutdownHook] Thread [AWT-EventQueue-0] (isDaemon=false, state=WAITING)
+[2026-10-27 20:43:40.031] [DiagnosticShutdownHook]     at java.lang.Object.wait(Native Method)
+[2026-10-27 20:43:40.033] [DiagnosticShutdownHook]     at java.lang.Thread.join(Thread.java:1257)
+[2026-10-27 20:43:40.035] [DiagnosticShutdownHook]     at java.lang.Thread.join(Thread.java:1331)
+[2026-10-27 20:43:40.037] [DiagnosticShutdownHook]     at java.lang.ApplicationShutdownHooks.runHooks(ApplicationShutdownHooks.java:107)
+[2026-10-27 20:43:40.041] [DiagnosticShutdownHook]     at java.lang.ApplicationShutdownHooks$1.run(ApplicationShutdownHooks.java:46)
+[2026-10-27 20:43:40.043] [DiagnosticShutdownHook]     at java.lang.Shutdown.runHooks(Shutdown.java:130)
+[2026-10-27 20:43:40.043] [DiagnosticShutdownHook]     at java.lang.Shutdown.exit(Shutdown.java:178)
+[2026-10-27 20:43:40.044] [DiagnosticShutdownHook]     at java.lang.Runtime.exit(Runtime.java:103)
+[2026-10-27 20:43:40.046] [DiagnosticShutdownHook]     at java.lang.System.exit(System.java:987)
+[2026-10-27 20:43:40.048] [DiagnosticShutdownHook]     at javax.swing.JFrame.processWindowEvent(JFrame.java:318)
+[2026-10-27 20:43:40.049] [DiagnosticShutdownHook]     at java.awt.Window.processEvent(Window.java:2013)
+[2026-10-27 20:43:40.051] [DiagnosticShutdownHook]     at java.awt.Component.dispatchEventImpl(Component.java:4889)
+[2026-10-27 20:43:40.055] [DiagnosticShutdownHook]     at java.awt.Container.dispatchEventImpl(Container.java:2297)
+[2026-10-27 20:43:40.062] [DiagnosticShutdownHook]     at java.awt.Window.dispatchEventImpl(Window.java:2746)
+[2026-10-27 20:43:40.078] [DiagnosticShutdownHook]     at java.awt.Component.dispatchEvent(Component.java:4711)
+[2026-10-27 20:43:40.082] [DiagnosticShutdownHook]     at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+[2026-10-27 20:43:40.090] [DiagnosticShutdownHook]     at java.awt.EventQueue.access$500(EventQueue.java:97)
+[2026-10-27 20:43:40.094] [DiagnosticShutdownHook]     at java.awt.EventQueue$3.run(EventQueue.java:709)
+[2026-10-27 20:43:40.098] [DiagnosticShutdownHook]     at java.awt.EventQueue$3.run(EventQueue.java:703)
+[2026-10-27 20:43:40.104] [DiagnosticShutdownHook]     at java.security.AccessController.doPrivileged(Native Method)
+[2026-10-27 20:43:40.110] [DiagnosticShutdownHook]     at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+[2026-10-27 20:43:40.112] [DiagnosticShutdownHook]     at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+[2026-10-27 20:43:40.114] [DiagnosticShutdownHook]     at java.awt.EventQueue$4.run(EventQueue.java:733)
+[2026-10-27 20:43:40.116] [DiagnosticShutdownHook]     at java.awt.EventQueue$4.run(EventQueue.java:731)
+[2026-10-27 20:43:40.118] [DiagnosticShutdownHook]     at java.security.AccessController.doPrivileged(Native Method)
+[2026-10-27 20:43:40.127] [DiagnosticShutdownHook]     at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+[2026-10-27 20:43:40.129] [DiagnosticShutdownHook]     at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+[2026-10-27 20:43:40.135] [DiagnosticShutdownHook]     at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+[2026-10-27 20:43:40.142] [DiagnosticShutdownHook]     at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+[2026-10-27 20:43:40.153] [DiagnosticShutdownHook]     at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+[2026-10-27 20:43:40.161] [DiagnosticShutdownHook]     at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+[2026-10-27 20:43:40.166] [DiagnosticShutdownHook]     at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+[2026-10-27 20:43:40.169] [DiagnosticShutdownHook]     at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[2026-10-27 20:43:40.170] [DiagnosticShutdownHook] Thread [TimerQueue] (isDaemon=true, state=WAITING)
+[2026-10-27 20:43:40.172] [DiagnosticShutdownHook]     at sun.misc.Unsafe.park(Native Method)
+[2026-10-27 20:43:40.174] [DiagnosticShutdownHook]     at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[2026-10-27 20:43:40.183] [DiagnosticShutdownHook]     at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[2026-10-27 20:43:40.186] [DiagnosticShutdownHook]     at java.util.concurrent.DelayQueue.take(DelayQueue.java:211)
+[2026-10-27 20:43:40.190] [DiagnosticShutdownHook]     at javax.swing.TimerQueue.run(TimerQueue.java:174)
+[2026-10-27 20:43:40.194] [DiagnosticShutdownHook]     at java.lang.Thread.run(Thread.java:750)
+[2026-10-27 20:43:40.196] [DiagnosticShutdownHook] Thread [Signal Dispatcher] (isDaemon=true, state=RUNNABLE)
+[2026-10-27 20:43:40.197] [DiagnosticShutdownHook] === JVM Shutdown Complete ===
